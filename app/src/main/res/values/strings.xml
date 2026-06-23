@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VCam</string>
+    <string name="root_access">Root Access</string>
+    <string name="root_granted">✓ Root Granted — Ready</string>
+    <string name="root_denied">✗ Root Denied — Please grant root</string>
+    <string name="checking">Checking…</string>
+    <string name="select_media">1. Select Image or Video</string>
+    <string name="pick_image">Pick Image</string>
+    <string name="pick_video">Pick Video</string>
+    <string name="media_selected">Media loaded ✓</string>
+    <string name="media_preview">Media preview</string>
+    <string name="clear">Clear</string>
+    <string name="type_label">Filter:</string>
+    <string name="all_apps">All</string>
+    <string name="camera_apps">Camera Apps</string>
+    <string name="user_apps">User Apps</string>
+    <string name="target_app">2. Select Target App</string>
+    <string name="search_apps">Search apps…</string>
+    <string name="no_apps">No apps found</string>
+    <string name="app_icon">App icon</string>
+    <string name="camera_badge">📷 CAM</string>
+    <string name="start_vcam">Start VCam</string>
+    <string name="stop_vcam">Stop VCam</string>
+    <string name="permissions_required">Permissions required to continue</string>
+    <string name="select_media_first">Please select an image or video first</string>
+    <string name="no_target_app">No target app selected</string>
+    <string name="no_target_app_message">No target app selected. VCam will inject into all camera requests. Continue?</string>
+    <string name="start_anyway">Start Anyway</string>
+</resources>
