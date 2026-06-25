@@ -180,8 +180,7 @@ package com.vcam.ui
               }
               putExtra(VCamService.EXTRA_IS_VIDEO, viewModel.isVideo.value == true)
           }
-          if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) startForegroundService(intent)
-          else startService(intent)
+          startService(intent)
           viewModel.setServiceRunning(true)
       }
 
@@ -219,4 +218,3 @@ package com.vcam.ui
 
       private fun showSnack(msg: String) = Snackbar.make(binding.root, msg, Snackbar.LENGTH_LONG).show()
   }
-  
