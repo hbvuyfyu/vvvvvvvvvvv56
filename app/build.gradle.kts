@@ -9,7 +9,7 @@ plugins {
 
       defaultConfig {
           applicationId = "com.vcam"
-          minSdk = 26
+          minSdk = 24
           targetSdk = 35
           versionCode = 1
           versionName = "1.0"
@@ -75,4 +75,3 @@ plugins {
       implementation(libs.glide)
       implementation(libs.kotlinx.coroutines.android)
   }
-  
